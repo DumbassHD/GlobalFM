@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GlobalFM"
+             x:Class="GlobalFM.MainPage"             
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true" 
+             Title="GlobalFM"
+             BackgroundColor="#212121">
+    <FlexLayout Direction="Column">
+        <ScrollView Orientation="Vertical" FlexLayout.AlignSelf="Start" VerticalOptions="Start">
+            <FlexLayout BackgroundColor="Black">
+                <Frame CornerRadius="0" Margin="0" Padding="0" BackgroundColor="#212121">
+                    <FlexLayout Direction="Column" Margin="0">
+                        <ImageButton x:Name="rr"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_rr.png"
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                        BorderWidth="0"
+                        Clicked="Rr_Clicked"/>
+                        <Label Text="Radio Record" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton  x:Name="gold"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_gold.png" 
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                        BorderWidth="0"
+                                  Clicked="Gold_Clicked"/>
+                        <Label Text="Gold" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton  x:Name="elect"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_elect.png" 
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                                  BorderWidth="0"
+                                  Clicked="Elect_Clicked"/>
+                        <Label Text="Electro" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton  x:Name="progr"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_progr.png" 
+                        Margin="1"
+                        Aspect="AspectFit"
+                        Visual="Material"
+                                  BorderWidth="0"
+                                  Clicked="Progr_Clicked"/>
+                        <Label Text="Progressive" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton  x:Name="synthwave"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_synth.png" 
+                        Margin="1"
+                        Aspect="AspectFit"
+                        Visual="Material"
+                                  BorderWidth="0"
+                                  Clicked="Synthwave_Clicked"/>
+                        <Label Text="Synthwave" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+                    </FlexLayout>
+                </Frame>
+                <Frame CornerRadius="0" Margin="0" Padding="0" BackgroundColor="#212121">
+                    <FlexLayout Direction="Column">
+                        <ImageButton x:Name="deep"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_deep.png"
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                                 BorderWidth="0"
+                                 Clicked="Deep_Clicked"/>
+
+                        <Label Text="Deep" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+                        <ImageButton x:Name="ibiza"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_ibiza.png"
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                                 BorderWidth="0"
+                                 Clicked="Ibiza_Clicked"/>
+
+                        <Label Text="Innocence" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+                        <ImageButton x:Name="mt"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_mt.png"
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                                 BorderWidth="0"
+                                 Clicked="Mt_Clicked"/>
+
+                        <Label Text="Midtempo" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+                        <ImageButton  x:Name="househits"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_househits.png" 
+                        Margin="1"
+                        Aspect="AspectFit"
+                        Visual="Material"
+                                  BorderWidth="0"
+                                  Clicked="Househits_Clicked"/>
+                        <Label Text="House Hits" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton  x:Name="dream"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_dream.png" 
+                        Margin="1"
+                        Aspect="AspectFit"
+                        Visual="Material"
+                                  BorderWidth="0"
+                                  Clicked="Dream_Clicked"/>
+                        <Label Text="Dream Dance" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+                    </FlexLayout>
+                </Frame>
+                <Frame CornerRadius="0" Margin="0" Padding="0" BackgroundColor="#212121">
+                    <FlexLayout Direction="Column">
+                        <ImageButton x:Name="trap"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_trap.png"
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                                 BorderWidth="0"
+                                 Clicked="Trap_Clicked"/>
+                        <Label Text="Trap" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton x:Name="mf"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_mf.png"
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                                 BorderWidth="0"
+                                 Clicked="Mf_Clicked"/>
+                        <Label Text="Маятник Фуко" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton x:Name="edmhits"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_edmhits.png"
+                        Margin="1"
+                        Aspect="AspectFill"
+                        Visual="Material"
+                                 BorderWidth="0"
+                                 Clicked="Edmhits_Clicked"/>
+                        <Label Text="EDM Hits" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton  x:Name="bighits"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_bighits.png" 
+                        Margin="1"
+                        Aspect="AspectFit"
+                        Visual="Material"
+                                  BorderWidth="0"
+                                  Clicked="Bighits_Clicked"/>
+                        <Label Text="Big Hits" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+
+                        <ImageButton  x:Name="rock"
+                        HeightRequest="120"
+                        BackgroundColor="Black"
+                        Source="st_rock.png" 
+                        Margin="1"
+                        Aspect="AspectFit"
+                        Visual="Material"
+                                  BorderWidth="0"
+                                  Clicked="Rock_Clicked"/>
+                        <Label Text="Rock" Margin="1,-2,1,0" BackgroundColor="Black" HorizontalTextAlignment="Center" TextColor="White"/>
+                    </FlexLayout>
+                </Frame>
+            </FlexLayout>
+        </ScrollView>
+
+        <Frame CornerRadius="0" Margin="0" Padding="0" FlexLayout.AlignSelf="End" HeightRequest="170" BackgroundColor="#111111">
+            <FlexLayout Direction="Row"
+                        JustifyContent="SpaceBetween"
+                        Padding="0">
+                <Image 
+                    FlexLayout.AlignSelf="Start"
+                       Source="st_rr.png"
+                       x:Name="ImageCS"
+                       HeightRequest="50"
+                       Margin="1"
+                       BackgroundColor="#111111"
+                       Aspect="AspectFit"/>
+                <Label FlexLayout.AlignSelf="Center"
+                       x:Name="station"
+                       Text="Radio Record"
+                       TextColor="white"/>
+                <ImageButton 
+                        FlexLayout.AlignSelf="End"
+                        x:Name="play"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        BorderWidth="0"
+                        BackgroundColor="#111111"
+                        Source="play.png"
+                        Aspect="Fill"
+                        Margin="1"
+                        Clicked="Play_Clicked"/>
+            </FlexLayout>
+        </Frame>
+    </FlexLayout>
+</ContentPage>
